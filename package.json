@@ -1,0 +1,27 @@
+{
+  "name": "picgo-plugin-yuque",
+  "version": "1.0.0",
+  "description": "语雀图床 PicGo 插件",
+  "main": "src/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch": "npm version patch && git push origin master && git push origin --tags",
+    "minor": "npm version minor && git push origin master && git push origin --tags",
+    "major": "npm version major && git push origin master && git push origin --tags"
+  },
+  "keywords": [
+    "picgo",
+    "picgo-gui-plugin",
+    "picgo-plugin",
+    "picgo-plugin-yuque",
+    "yuque",
+    "语雀图床"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 14"
+  }
+}
